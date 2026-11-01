@@ -107,8 +107,10 @@ def test_export_json():
     assert isinstance(data, list)
     assert len(data) > 0
 
-def test_live_scan_without_keys_fails_explicitly():
+def test_live_scan_without_keys_fails_explicitly(monkeypatch):
     # LIVE mode must fail with a clear configuration message if keys are not present
+    monkeypatch.setattr("backend.main.is_live_ready", lambda: False)
+    monkeypatch.setattr("backend.pipeline.is_tinyfish_configured", lambda: False)
     payload = {"district": "Ganjam", "mode": "LIVE"}
     res = client.post("/api/scan", json=payload)
     # If keys are not set, it should return 400 Bad Request with a clear message
