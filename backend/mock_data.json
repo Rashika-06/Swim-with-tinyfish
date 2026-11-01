@@ -1,0 +1,145 @@
+{
+  "event_name": "South Odisha Cyclone & Flood Emergency (Ganjam & Gajapati)",
+  "is_synthetic": true,
+  "sources": [
+    {
+      "url": "https://synthetic-odisha-relief.gov.in/ganjam/bulletin-08",
+      "title": "Ganjam District Disaster Management Authority - Emergency Situation Report #08",
+      "snippet": "Official situation report on road accessibility, electrical restoration at Berhampur, and relief stock deployment across Ganjam district.",
+      "text": "GOVERNMENT OF ODISHA - DISTRICT DISASTER MANAGEMENT AUTHORITY (GANJAM)\nSITUATION BULLETIN #08 - CYCLONE RELIEF OPERATION\nDate: 28 October 2026\n\n1. Gopalpur Coastal Belt: Cyclone shelter facilities are fully energized. NDRF and local administration delivered 1,600 waterproof tarpaulin kits to Gopalpur Cyclone Shelter #4, covering all evacuated fisher families.\n\n2. Berhampur City: Essential civic infrastructure restoration has commenced. District Administration confirmed backup diesel generators at Berhampur MKCG Medical College are 100% restored and fully operational.\n\n3. Food Stockpile: District central warehouse in Chhatrapur maintains buffer stocks. Distribution schedules for coastal pockets remain under assessment.",
+      "fetch_status": "SUCCESS",
+      "error_msg": ""
+    },
+    {
+      "url": "https://synthetic-redcross-field.org/reports/gajapati-cyclone-day3",
+      "title": "Red Cross & ActionAid Rapid Needs Assessment - Gajapati District",
+      "snippet": "Field dispatch highlighting severed communication in Mohana block and critical drinking water shortages.",
+      "text": "INDIAN RED CROSS SOCIETY - GAJAPATI DISASTER RESPONSE UNIT\nRAPID FIELD ASSESSMENT - POST-LANDFALL DAY 3\nDate: 29 October 2026\n\n1. Mohana Block Crisis: Flash flooding along the Rushikulya-Vamsadhara watershed washed away the connecting culvert on the Mohana-Luhagudi ghat road. Villagers in Mohana block, Gajapati report zero water tankers reached and no clean drinking water for 72 hours due to washed out culverts. Over 500 tribal families are completely isolated without potable water supplies.\n\n2. Paralakhemundi Ward #12: Municipal workers have initiated initial roadside debris clearance, but high-tension lines remain down.",
+      "fetch_status": "SUCCESS",
+      "error_msg": ""
+    },
+    {
+      "url": "https://synthetic-samaja-news.in/odisha/south-coast-flood-updates",
+      "title": "South Odisha Ground Dispatch: Hospital Crises and Coastal Evacuation Needs",
+      "snippet": "Independent press investigation documenting ground reality in Berhampur hospitals and Chhatrapur low-lying colonies.",
+      "text": "SOUTH ODISHA CRISIS INVESTIGATION\nBerhampur / Chhatrapur | 29 October 2026\n\nMedical Emergencies at Berhampur: While civic announcements claim normalcy, on-ground reality at MKCG Hospital paints an alarming picture. Field volunteer doctors report ICU backup generator failed, critical oxygen shortage with severe crisis in neonatal ward. Emergency diesel shipments are held up in floodwaters near Aska junction.\n\nChhatrapur Inundation: Over 4,000 packets of dry food rations requested for stranded low-lying wards in Chhatrapur. Municipal authorities have acknowledged receipt of requisition letters, but relief dispatch quantity is not published.",
+      "fetch_status": "SUCCESS",
+      "error_msg": ""
+    },
+    {
+      "url": "https://synthetic-community-dispatch.net/ganjam/hinjilicut-water",
+      "title": "Community Health Bulletin - Hinjilicut Block Relief Center",
+      "snippet": "Community clinic logs on waterborne diseases and partial halogen tablet fulfillment.",
+      "text": "HINJILICUT COMMUNITY HEALTH ACTION LOG\nDate: 29 October 2026\n\nBorewells across Hinjilicut rural wards remain submerged under floodwaters, leading to high risk of cholera and acute diarrhea. Health center reports urgent requirement of 10,000 water purification halogen tablets to prevent waterborne epidemic. Later in the afternoon, Block office dispatched 3,000 water purification tablets to Hinjilicut primary health center. The community clinic director noted a remaining deficit of 7,000 tablets.",
+      "fetch_status": "SUCCESS",
+      "error_msg": ""
+    },
+    {
+      "url": "https://synthetic-osdma-tracker.gov.in/cyclone-relief/gajapati-prelim",
+      "title": "Preliminary Preparedness Note - Gajapati District Administration",
+      "snippet": "Pre-cyclone alert notice published 5 days prior to landfall.",
+      "text": "PRE-LANDFALL PREPAREDNESS CIRCULAR (ARCHIVED)\nDate: 24 October 2026\nDistrict emergency control room established at Paralakhemundi. All fishing boats recalled to shore.",
+      "fetch_status": "SUCCESS",
+      "error_msg": ""
+    }
+  ],
+  "facts": [
+    {
+      "source_url": "https://synthetic-redcross-field.org/reports/gajapati-cyclone-day3",
+      "location": "Mohana",
+      "district": "Gajapati",
+      "item": "Drinking Water",
+      "record_type": "NEED",
+      "quantity": 500,
+      "unit": "families",
+      "urgency": "CRITICAL",
+      "report_date": "2026-10-29",
+      "evidence_quote": "Villagers in Mohana block, Gajapati report zero water tankers reached and no clean drinking water for 72 hours due to washed out culverts."
+    },
+    {
+      "source_url": "https://synthetic-odisha-relief.gov.in/ganjam/bulletin-08",
+      "location": "Berhampur MKCG Hospital",
+      "district": "Ganjam",
+      "item": "Emergency Medical Power",
+      "record_type": "RESTORATION",
+      "quantity": 100,
+      "unit": "percent",
+      "urgency": "LOW",
+      "report_date": "2026-10-28",
+      "evidence_quote": "District Administration confirmed backup diesel generators at Berhampur MKCG Medical College are 100% restored and fully operational."
+    },
+    {
+      "source_url": "https://synthetic-samaja-news.in/odisha/south-coast-flood-updates",
+      "location": "Berhampur MKCG Hospital",
+      "district": "Ganjam",
+      "item": "Emergency Medical Power",
+      "record_type": "NEED",
+      "quantity": 1,
+      "unit": "ICU Unit",
+      "urgency": "CRITICAL",
+      "report_date": "2026-10-29",
+      "evidence_quote": "Field volunteer doctors report ICU backup generator failed, critical oxygen shortage with severe crisis in neonatal ward."
+    },
+    {
+      "source_url": "https://synthetic-samaja-news.in/odisha/south-coast-flood-updates",
+      "location": "Chhatrapur",
+      "district": "Ganjam",
+      "item": "Dry Food Rations",
+      "record_type": "NEED",
+      "quantity": 4000,
+      "unit": "packets",
+      "urgency": "HIGH",
+      "report_date": "2026-10-29",
+      "evidence_quote": "Over 4,000 packets of dry food rations requested for stranded low-lying wards in Chhatrapur."
+    },
+    {
+      "source_url": "https://synthetic-odisha-relief.gov.in/ganjam/bulletin-08",
+      "location": "Gopalpur",
+      "district": "Ganjam",
+      "item": "Emergency Shelter Tarpaulins",
+      "record_type": "SUPPLY",
+      "quantity": 1600,
+      "unit": "kits",
+      "urgency": "LOW",
+      "report_date": "2026-10-28",
+      "evidence_quote": "NDRF and local administration delivered 1,600 waterproof tarpaulin kits to Gopalpur Cyclone Shelter #4, covering all evacuated fisher families."
+    },
+    {
+      "source_url": "https://synthetic-community-dispatch.net/ganjam/hinjilicut-water",
+      "location": "Hinjilicut",
+      "district": "Ganjam",
+      "item": "Water Purification Tablets",
+      "record_type": "NEED",
+      "quantity": 10000,
+      "unit": "tablets",
+      "urgency": "HIGH",
+      "report_date": "2026-10-29",
+      "evidence_quote": "Health center reports urgent requirement of 10,000 water purification halogen tablets to prevent waterborne epidemic."
+    },
+    {
+      "source_url": "https://synthetic-community-dispatch.net/ganjam/hinjilicut-water",
+      "location": "Hinjilicut",
+      "district": "Ganjam",
+      "item": "Water Purification Tablets",
+      "record_type": "SUPPLY",
+      "quantity": 3000,
+      "unit": "tablets",
+      "urgency": "MEDIUM",
+      "report_date": "2026-10-29",
+      "evidence_quote": "Block office dispatched 3,000 water purification tablets to Hinjilicut primary health center."
+    },
+    {
+      "source_url": "https://synthetic-samaja-news.in/odisha/south-coast-flood-updates",
+      "location": "Paralakhemundi",
+      "district": "Gajapati",
+      "item": "Drone Aid Delivery",
+      "record_type": "SUPPLY",
+      "quantity": 50000,
+      "unit": "kits",
+      "urgency": "LOW",
+      "report_date": "2026-10-29",
+      "evidence_quote": "Unverified social media rumor claiming 50,000 luxury relief kits dropped by supersonic transport drones.",
+      "intended_to_fail": true
+    }
+  ]
+}
